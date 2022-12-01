@@ -1,0 +1,1 @@
+Script install URSA Node

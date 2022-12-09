@@ -6,8 +6,12 @@
 	sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 	. $HOME/.cargo/env
 	curl https://deb.nodesource.com/setup_16.x | sudo bash
-	sudo apt install curl make clang pkg-config libssl-dev build-essential git jq nodejs -y < "/dev/null"
-	sudo apt install npm protobuf-compiler 
+	sudo apt install curl make libssl-dev build-essential git jq nodejs -y < "/dev/null"
+	sudo apt install npm
+	cargo install sccache
+        sudo apt-get install build-essential
+        sudo apt-get install cmake clang pkg-config libssl-dev
+        sudo apt-get install protobuf-compiler
   
   
   echo -e '\n\e[42mPreparing to install Ursa\e[0m\n' && sleep 1

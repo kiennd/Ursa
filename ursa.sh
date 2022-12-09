@@ -34,10 +34,10 @@ WantedBy=multi-user.target
 EOF
 
 
-sudo systemctl daemon-reload
+#sudo systemctl daemon-reload
 
-sudo systemctl enable ursa
+#sudo systemctl enable ursa
 
-sudo systemctl restart ursa
+#sudo systemctl restart ursa
 
-sudo journalctl -u ursa -f --no-hostname -o cat
+#sudo journalctl -u ursa -f --no-hostname -o cat

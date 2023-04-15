@@ -17,7 +17,7 @@
   echo -e '\n\e[42mPreparing to install Ursa\e[0m\n' && sleep 1
   mkdir -p $HOME/fleek/
   cd $HOME/fleek/
-  git clone git@github.com:fleek-network/ursa.git
+  git clone https://github.com/fleek-network/ursa.git
   cd ursa/
   make install
   
